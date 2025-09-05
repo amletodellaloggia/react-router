@@ -9,3 +9,7 @@
   height: 200px;
   object-fit: contain;
 }
+
+.nav-link.active {
+  color: #ffc107 !important;
+}
