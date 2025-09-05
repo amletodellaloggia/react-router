@@ -1,11 +1,12 @@
-import React from 'react'
+import Navbar from "../components/Navbar";
 
 const ChiSiamo = () => {
   return (
-	<div>
-	  <h1>Chi Siamo</h1>
-	</div>
-  )
-}
+    <>
+      <Navbar />
+      <h1>Chi Siamo</h1>
+    </>
+  );
+};
 
-export default ChiSiamo
+export default ChiSiamo;

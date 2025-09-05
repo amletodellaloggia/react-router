@@ -4,3 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.card img{
+  height: 200px;
+  object-fit: contain;
+}
