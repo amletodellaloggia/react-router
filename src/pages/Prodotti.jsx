@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Navbar from "../components/Navbar";
 
 const Prodotti = () => {
   const [prodotti, setProdotti] = useState([]);
@@ -13,7 +12,6 @@ const Prodotti = () => {
 
   return (
     <>
-      <Navbar />
       <div className="container mt-4">
         <h1 className="mb-4">Prodotti</h1>
 

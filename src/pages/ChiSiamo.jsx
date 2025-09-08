@@ -1,9 +1,8 @@
-import Navbar from "../components/Navbar";
+
 
 const ChiSiamo = () => {
   return (
     <>
-      <Navbar />
       <div className="container mt-4">
         <h1 className="mb-3">Chi Siamo</h1>
         <p>

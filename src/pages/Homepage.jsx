@@ -1,9 +1,6 @@
-import Navbar from "../components/Navbar";
-
 const Homepage = () => {
   return (
     <>
-      <Navbar />
       <div className="container mt-4">
         <div className="row align-items-center">
           <div className="col-md-6">
