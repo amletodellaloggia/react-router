@@ -27,9 +27,16 @@ const Prodotti = () => {
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{prodotto.title}</h5>
-                  <p className="card-text text-truncate">{prodotto.description}</p>
+                  <p className="card-text text-truncate">
+                    {prodotto.description}
+                  </p>
                   <p className="fw-bold mt-auto">€ {prodotto.price}</p>
-                  <Link className="btn btn-warning fw-bold" to={`/dettaglio-prodotto/${prodotto.id}`}>Dettagli</Link>
+                  <Link
+                    className="btn btn-warning fw-bold"
+                    to={`/dettaglio-prodotto/${prodotto.id}`}
+                  >
+                    Dettagli
+                  </Link>
                 </div>
               </div>
             </div>
