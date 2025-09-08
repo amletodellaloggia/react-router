@@ -19,7 +19,7 @@ const Prodotti = () => {
         <div className="row">
           {prodotti.map((prodotto) => (
             <div className="col-md-3 mb-4" key={prodotto.id}>
-              <div className="card h-100">
+              <div className="card h-100 card shadow">
                 <img
                   src={prodotto.image}
                   className="card-img-top p-3"
@@ -29,7 +29,7 @@ const Prodotti = () => {
                   <h5 className="card-title">{prodotto.title}</h5>
                   <p className="card-text text-truncate">{prodotto.description}</p>
                   <p className="fw-bold mt-auto">€ {prodotto.price}</p>
-                  <Link className="btn btn-warning fw-bold" to="/prodotto">Dettagli</Link>
+                  <Link className="btn btn-warning fw-bold" to={`/dettaglio-prodotto/${prodotto.id}`}>Dettagli</Link>
                 </div>
               </div>
             </div>
