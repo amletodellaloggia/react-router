@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Prodotti = () => {
   const [prodotti, setProdotti] = useState([]);
@@ -28,6 +29,7 @@ const Prodotti = () => {
                   <h5 className="card-title">{prodotto.title}</h5>
                   <p className="card-text text-truncate">{prodotto.description}</p>
                   <p className="fw-bold mt-auto">€ {prodotto.price}</p>
+                  <Link className="btn btn-warning fw-bold" to="/prodotto">Dettagli</Link>
                 </div>
               </div>
             </div>
